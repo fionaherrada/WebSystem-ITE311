@@ -37,11 +37,17 @@ class Autoload extends AutoloadConfig
      *
      * @var array<string, list<string>|string>
      */
+<<<<<<< HEAD
       public $psr4 = [
        'App'         => APPPATH, // For custom application files
        'Config'      => APPPATH . 'Config',
    ];
    
+=======
+    public $psr4 = [
+        APP_NAMESPACE => APPPATH,
+    ];
+>>>>>>> 13959ea3e45ce4708e852374352e559b87f80e58
 
     /**
      * -------------------------------------------------------------------
